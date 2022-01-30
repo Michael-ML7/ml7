@@ -1,6 +1,6 @@
 :root {
     --bg-color: rgb(56, 170, 56);
-    --speed: 6s;
+    --speed: 5s;
     --characters: 22;
 }
 
@@ -43,7 +43,7 @@ h1::after {
 
 .subtitle {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     opacity: 0;
     transform: translateY(3rem);
