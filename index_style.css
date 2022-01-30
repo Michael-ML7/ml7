@@ -6,10 +6,11 @@
 
 body {
     margin: 0;
-    font-family: "Consolas", "Source Sans Pro", sans-serif;
+    font-family: "Consolas", "Source Sans Pro", monospace;
     min-height: 100vh;
     display: grid;
     place-content: center;
+    text-align: center;
     background: var(--bg-color);
 }
 
@@ -67,4 +68,43 @@ h1::after {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+#to-main {
+    position: relative;
+    color: blue;
+    font-size: 1.25rem;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(var(--speed) + 2s) forwards;
+}
+
+#yt-channel {
+    position: absolute;
+    bottom: 4em;
+    width: 100%;
+    color: blue;
+}
+
+#insta {
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    color: blue;
+}
+
+#to-main:hover,
+#to-main:focus {
+    color: teal;
+}
+
+#yt-channel:hover,
+#yt-channel:focus {
+    color: teal;
+}
+
+#insta:hover,
+#insta:focus {
+    color: teal;
 }
