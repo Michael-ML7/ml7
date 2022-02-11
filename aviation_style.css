@@ -17,6 +17,15 @@ li, a, button {
     text-decoration: none;
 }
 
+.logo {
+    transition: all 300ms ease 0s;
+}
+
+.logo:hover,
+.logo:focus {
+    box-shadow: 10px 10px 20px rgb(0, 255, 76);
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -115,4 +124,34 @@ button:focus::after {
 .title {
     font-size: 3rem;
     padding: 15px 10%;
+}
+
+.body {
+    padding-left: 7rem;
+}
+
+#main {
+    font-size: 3rem;
+    color: black;
+}
+
+#desc {
+    font-size: 1.5rem;
+    color: black;
+}
+
+#smaller {
+    font-size: 1rem;
+    color: black;
+}
+
+#photo-one {
+    padding-right: 3rem;
+    width: 50rem;
+    height: auto;
+}
+
+.floatright {
+    float: right;
+    margin-left: 4rem;
 }

@@ -117,12 +117,29 @@ button:focus::after {
     opacity: 1;
 }
 
-.title {
-    font-size: 3rem;
-    padding: 4px 10%;
+.description {
+    color: black;
+    padding-left: 5rem;
 }
 
-footer {
+#intro {
+    font-size: 3rem;
+    color: black;
+}
+
+#what-i-like {
+    font-size: 2rem;
+    color: rgb(0, 0, 255);
+}
+
+#promo {
+    font-size: 1rem;
+    color: black;
+}
+
+/* footer {
+    font-size: 1.5rem;
+    width: fill-parent;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -130,15 +147,7 @@ footer {
     padding: 15px 10%;
     bottom: 0rem;
 
-    background-color: rgba(0, 0, 0, 0.5);
-
-    /* background-color: rgba(0, 0, 0, 0.5);
-    color: black;
-    position: absolute;
-    width: fit-content;
-    font-size: 1.25rem;
-    padding-left: 12rem;
-    bottom: 4rem; */
+    background-color: rgba(0, 225, 255, 0.5);
 }
 
 #yt-channel {
@@ -166,4 +175,4 @@ footer {
 #insta:focus {
     color: teal;
     transition: all 300ms ease 0s;
-}
+} */
