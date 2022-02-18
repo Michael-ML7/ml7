@@ -145,13 +145,15 @@ button:focus::after {
     color: black;
 }
 
-#photo-one {
-    padding-right: 3rem;
-    width: 50rem;
+#photo {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    width: 45rem;
     height: auto;
 }
 
-.floatright {
+/* .floatright {
     float: right;
     margin-left: 4rem;
-}
+    padding-bottom: 1rem;
+} */
