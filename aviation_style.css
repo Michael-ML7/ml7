@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 :root {
     --bg-color: rgb(119, 230, 152);
     --neon-color: rgba(255, 0, 0, 0.7);
@@ -9,6 +13,11 @@
     font-family: "Calibri", "Arial", sans-serif;
     min-height: 100vh;
     background: var(--bg-color);
+
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
 
 li, a, button {
@@ -157,3 +166,108 @@ button:focus::after {
     margin-left: 4rem;
     padding-bottom: 1rem;
 } */
+
+footer {
+    margin-top: auto;
+
+    position: relative;
+    bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-color: aqua; */
+    height: auto;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-color: aqua; */
+    height: auto;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#yt-channel {
+    transition: all 300ms ease 0s;
+
+    margin: 0;
+    place-content: center;
+    size: 4rem;
+    text-align: center;
+    position: sticky;
+    bottom: 6rem;
+    padding-right: 1rem;
+    color: blue;
+
+    font-family: 'consolas', Courier, monospace;
+}
+
+#insta {
+    transition: all 300ms ease 0s;
+
+    margin: 0;
+    place-content: center;
+    size: 4rem;
+    text-align: center;
+    position: sticky;
+    bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: blue;
+
+    font-family: 'consolas', Courier, monospace;
+}
+
+#discord {
+    transition: all 300ms ease 0s;
+
+    margin: 0;
+    place-content: center;
+    size: 4rem;
+    text-align: center;
+    position: sticky;
+    bottom: 2rem;
+    padding-left: 1rem;
+    color: blue;
+
+    font-family: 'consolas', Courier, monospace;
+}
+
+#yt-channel:hover,
+#yt-channel:focus {
+    transition: all 300ms ease 0s;
+    color: teal;
+}
+
+#insta:hover,
+#insta:focus {
+    transition: all 300ms ease 0s;
+    color: teal;
+}
+
+#discord:hover,
+#discord:focus {
+    transition: all 300ms ease 0s;
+    color: teal;
+}
+
+#yt-icon {
+    height: 1.5rem;
+    width: auto;
+}

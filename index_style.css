@@ -71,6 +71,8 @@ h1::after {
 }
 
 #to-main {
+    transition: all 300ms ease 0s;
+
     position: relative;
     color: blue;
     font-size: 1.25rem;
@@ -81,30 +83,63 @@ h1::after {
 }
 
 #yt-channel {
+    transition: all 300ms ease 0s;
+
+    font-size: 1.5rem;
+    size: 4rem;
     position: absolute;
-    bottom: 4em;
+    bottom: 6rem;
     width: 100%;
     color: blue;
 }
 
 #insta {
+    transition: all 300ms ease 0s;
+
+    font-size: 1.5rem;
+    size: 4rem;
     position: absolute;
-    bottom: 2em;
+    bottom: 4rem;
+    width: 100%;
+    color: blue;
+}
+
+#discord {
+    transition: all 300ms ease 0s;
+
+    font-size: 1.5rem;
+    size: 4rem;
+    position: absolute;
+    bottom: 2rem;
     width: 100%;
     color: blue;
 }
 
 #to-main:hover,
 #to-main:focus {
+    transition: all 300ms ease 0s;
     color: teal;
 }
 
 #yt-channel:hover,
 #yt-channel:focus {
+    transition: all 300ms ease 0s;
     color: teal;
 }
 
 #insta:hover,
 #insta:focus {
+    transition: all 300ms ease 0s;
     color: teal;
+}
+
+#discord:hover,
+#discord:focus {
+    transition: all 300ms ease 0s;
+    color: teal;
+}
+
+#yt-icon {
+    height: 1.5rem;
+    width: auto;
 }
