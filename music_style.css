@@ -142,7 +142,7 @@ footer {
     bottom: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    /* background-color: aqua; */
+    background-color: black;
     height: auto;
     width: 100%;
 }
@@ -164,7 +164,7 @@ footer {
     position: sticky;
     bottom: 6rem;
     padding-right: 1rem;
-    color: blue;
+    color: white;
 
     font-family: 'consolas', Courier, monospace;
 }
@@ -180,7 +180,7 @@ footer {
     bottom: 4rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: blue;
+    color: white;
 
     font-family: 'consolas', Courier, monospace;
 }
@@ -195,7 +195,7 @@ footer {
     position: sticky;
     bottom: 2rem;
     padding-left: 1rem;
-    color: blue;
+    color: white;
 
     font-family: 'consolas', Courier, monospace;
 }
@@ -203,19 +203,19 @@ footer {
 #yt-channel:hover,
 #yt-channel:focus {
     transition: all 300ms ease 0s;
-    color: teal;
+    color: rgb(253, 218, 152);
 }
 
 #insta:hover,
 #insta:focus {
     transition: all 300ms ease 0s;
-    color: teal;
+    color: rgb(253, 218, 152);
 }
 
 #discord:hover,
 #discord:focus {
     transition: all 300ms ease 0s;
-    color: teal;
+    color: rgb(253, 218, 152);
 }
 
 #yt-icon {
