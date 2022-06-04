@@ -1,3 +1,5 @@
+// Arduino MEGA
+
 // pins from AIRCON lighting
 const int AIRCON_BLUE = 13;
 const int AIRCON_RED = 12;
