@@ -234,7 +234,18 @@ footer {
 
 #loc {
     font-family: "consolas", Courier, monospace;
-    color: rgb(0, 0, 182);
+    color: rgb(65, 65, 209);
+}
+
+#loc-link {
+    font-family: "consolas", Courier, monospace;
+    color:rgb(65, 65, 209);
+}
+
+#loc-link:hover,
+#loc-link:focus {
+    color: teal;
+    transition: all 300ms ease 0s;
 }
 
 #circuit_dia {
